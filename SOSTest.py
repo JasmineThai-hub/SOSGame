@@ -2,12 +2,6 @@ import unittest
 import App
 from tkinter import *
 
-"""
-CURRENT TO-DO:
-1.) write new test cases for the simple and general games
-2.) update 
-"""
-
 class MyTestCase(unittest.TestCase):
     def testSuccessfulBoard(self):
         window = Tk()
